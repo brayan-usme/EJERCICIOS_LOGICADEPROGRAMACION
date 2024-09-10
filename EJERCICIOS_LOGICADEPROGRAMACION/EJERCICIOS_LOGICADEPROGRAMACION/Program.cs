@@ -18,7 +18,7 @@
         // X1 = Convert.ToDouble(Console.ReadLine()); // asi se convierte a el tipo de texto que necesites (Convert.xxxxxx)
         // 
         X1 = Convert.ToDouble(Console.ReadLine());
-
+        
 
 
 
