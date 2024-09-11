@@ -29,7 +29,8 @@
             Console.WriteLine("a no vale una monda");
         }
 
-        Console.Write(" fin del programa");
+        Console.Write(" fin del programa, hasta luego");
+        
        
 
 
