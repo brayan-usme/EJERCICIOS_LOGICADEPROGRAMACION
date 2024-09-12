@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35222.181
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ejercicio2_construir_un_triangulo", "Ejercicio2_construir_un_triangulo\Ejercicio2_construir_un_triangulo.csproj", "{262D4BD8-7A5B-4FDA-85DE-90D24EDFAB0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{262D4BD8-7A5B-4FDA-85DE-90D24EDFAB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{262D4BD8-7A5B-4FDA-85DE-90D24EDFAB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{262D4BD8-7A5B-4FDA-85DE-90D24EDFAB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{262D4BD8-7A5B-4FDA-85DE-90D24EDFAB0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FDBB4183-AFB0-406B-8E3F-94F8F4C5A994}
+	EndGlobalSection
+EndGlobal
