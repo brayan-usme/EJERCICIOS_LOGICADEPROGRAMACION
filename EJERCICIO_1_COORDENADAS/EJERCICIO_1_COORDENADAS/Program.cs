@@ -18,7 +18,7 @@
         // 
         X1 = Convert.ToDouble(Console.ReadLine());
 
-        Console.Write("porfavor ingrese el valor de x y1");
+        Console.Write("porfavor ingrese el valor de y1");
         Y1= Convert.ToDouble(Console.ReadLine());
 
         Console.Write("porfavor ingrese el valor de x2 ");
@@ -27,17 +27,15 @@
         Console.Write("porfavor ingrese el valor de y2 ");
         Y2 = Convert.ToDouble(Console.ReadLine());
 
-        // así no es la formula matematicamente pero funciona mientras sjjsjsjsjj
-        proces1 = (X1-X2) ;
-        proces2 = (Y1-Y2) ;
-        double proces3 = proces1*2;
-        double proces4 = proces2 * 2;
+        // proceso
 
-       
+         proces1 = (X2-X1)* (X2-X1) ;
+        proces2 = (Y2 - Y1) * (Y2 - Y1);
+       double suma = proces1+proces2;
 
-        D = proces3 + proces4 ;
-        Console.Write("LA DISTANCIA ES " + D);
-
+        D = Math.Sqrt(suma);   
+        
+        Console.Write("el resultado es :" + D);
 
 
 
