@@ -37,14 +37,16 @@ public class Program
         //descuentos
         const decimal constante_descuento_estrato1 = 80;
         const decimal constante_descuento_estrato2 = 50;
-        const double constante_descuento_estrato3 = 30;
+        const decimal constante_descuento_estrato33 = 30;
         // subsicios para estratos 1y 2
         const decimal subsidio_estrato1 = 2000000;
         const decimal subsidio_estrato2 = 1000000;
         // opereaciones
         decimal sumade_matricula_por_preciode_matricula= num_creditos_tomados * creditos;
-       decimal p
-       
+        decimal operacion_descuento_estrato1 = sumade_matricula_por_preciode_matricula * constante_descuento_estrato1 / 100;
+        decimal operacion_descuento_estrato2 = sumade_matricula_por_preciode_matricula * constante_descuento_estrato2 / 100;
+        decimal operacion_descuento_estrato3 = sumade_matricula_por_preciode_matricula *constante_descuento_estrato33 / 100;
+        //
 
 
         // desarrollo
@@ -53,13 +55,23 @@ public class Program
         {
             if (estratro_estudiante == 1)
             {
+                Console.WriteLine($"El valor de tu matricula es {sumade_matricula_por_preciode_matricula} pero con el descuento del 80% queda en {sumade_matricula_por_preciode_matricula - operacion_descuento_estrato1}\n adicionalmente tienes un subsidio de alimentación y transporte de : {subsidio_estrato1}");
 
-                
-                
+
 
             }
+            else if (estratro_estudiante == 2)
+            {
+                Console.WriteLine($"El valor de tu matricula es {sumade_matricula_por_preciode_matricula} pero con el descuento del 30% queda en {sumade_matricula_por_preciode_matricula - operacion_descuento_estrato2}\n adicionalmente tienes un subsidio de alimentación y transporte de : {subsidio_estrato2}");
 
-
+            }
+            else if (estratro_estudiante == 3)
+            {
+                Console.WriteLine($"El valor de tu matricula es {sumade_matricula_por_preciode_matricula} pero con el descuento del 50% queda en {sumade_matricula_por_preciode_matricula - operacion_descuento_estrato2}\n No tienes ningun tipo de subsidio");
+            }
+            else {
+                Console.WriteLine(" tu estrato social no esta permitido ");
+            }
 
 
 
