@@ -23,7 +23,7 @@ public class Program
  La aplicación debe preguntar al usuario si quiere volver al inicio o no para calcular la
  matrícula de un nuevo estudiante.
  Hacer uso de todos los elementos de programación que hemos visto hasta el
- momento, incluyendo POO(clases, propiedades, métodos)*/
+ momento, incluyendo POO(clases, propiedades, métodoss)*/
 
         //DECLARO MIS VARIABLES Y VALORES A PEDIR
         Console.WriteLine("¿Cuantos creditos tomo para este semestre? ");
