@@ -29,6 +29,14 @@ public class Program
         Console.WriteLine("¿Cuantos creditos tomo para este semestre? ");
         double num_creditos_tomados = Convert.ToDouble(Console.ReadLine());
         const decimal creditos = 1000;
+        const decimal credito_extra = 2000;
+
+        Console.WriteLine("¿Cuantos creditos tomo para este semestre? ");
+        double estratro_estudiante; = Convert.ToDouble(Console.ReadLine());
+
+        const double descuento_estrato1 = 80;
+        const double descuento_estrato2 = 50;
+        const double descuento_estrato3 = 30;
 
 
 
