@@ -99,7 +99,7 @@ public class Program
             else if (estratro_estudiante == 2)
             {
 
-
+                Console.WriteLine($"El valor de tu matricula es {total_matricula_creditos_extras} pero con el descuento del 80% queda en {total_matricula_creditos_extras - operacion_descuento_estrato1_credito_extra}\n adicionalmente tienes un subsidio de alimentación y transporte de : {subsidio_estrato1}");
             }
             else if (estratro_estudiante == 3)
             {
