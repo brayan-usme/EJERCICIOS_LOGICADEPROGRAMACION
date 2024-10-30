@@ -62,7 +62,8 @@
                     continuar2 = Console.ReadLine();
                     if (continuar2 == "n")
                     {
-                        continuar = false;
+                        continuar = false;FF
+       QRFQFQFQ
                     }
 
 
