@@ -142,7 +142,7 @@ public class Program
             {
 
                 continuar = false;
-                Console.WriteLine(" El programa a finalizado, que tengas un exelente dia ;) ");
+                Console.WriteLine(" El programa a finalizado, que tengas un exelente dia ;) ");  
             }
 
 
