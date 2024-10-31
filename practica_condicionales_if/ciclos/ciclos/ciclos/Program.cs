@@ -77,19 +77,19 @@ public class Program
             {
                 if (estratro_estudiante == 1)
                 {
-                    Console.WriteLine($"El valor de tu matricula es ${sumade_matricula_por_preciode_matricula} pero con el descuento del 80% queda en ${sumade_matricula_por_preciode_matricula - operacion_descuento_estrato1}\n adicionalmente tienes un subsidio de alimentación y transporte de : ${subsidio_estrato1}");
+                    Console.WriteLine($"El valor de tu matricula es ${sumade_matricula_por_preciode_matricula.ToString("c")} pero con el descuento del 80% queda en ${sumade_matricula_por_preciode_matricula - operacion_descuento_estrato1}\n adicionalmente tienes un subsidio de alimentación y transporte de : ${subsidio_estrato1.ToString("c")}");
 
 
 
                 }
                 else if (estratro_estudiante == 2)
                 {
-                    Console.WriteLine($"El valor de tu matricula es ${sumade_matricula_por_preciode_matricula} pero con el descuento del 50% queda en ${sumade_matricula_por_preciode_matricula - operacion_descuento_estrato2}\n adicionalmente tienes un subsidio de alimentación y transporte de : ${subsidio_estrato2}");
+                    Console.WriteLine($"El valor de tu matricula es ${sumade_matricula_por_preciode_matricula.ToString("c")} pero con el descuento del 50% queda en ${sumade_matricula_por_preciode_matricula - operacion_descuento_estrato2}\n adicionalmente tienes un subsidio de alimentación y transporte de : ${subsidio_estrato2.ToString("c")}");
 
                 }
                 else if (estratro_estudiante == 3)
                 {
-                    Console.WriteLine($"El valor de tu matricula es ${sumade_matricula_por_preciode_matricula} pero con el descuento del 30% queda en ${sumade_matricula_por_preciode_matricula - operacion_descuento_estrato3}\n No tienes ningun tipo de subsidio");
+                    Console.WriteLine($"El valor de tu matricula es ${sumade_matricula_por_preciode_matricula.ToString("c")} pero con el descuento del 30% queda en ${sumade_matricula_por_preciode_matricula - operacion_descuento_estrato3}\n No tienes ningun tipo de subsidio");
                 }
                 else
                 {
@@ -106,7 +106,7 @@ public class Program
             {
                 if (estratro_estudiante == 1)
                 {
-                    Console.WriteLine($"El valor de tu matricula es ${total_matricula_creditos_extras} pero con el descuento del 80% queda en ${total_matricula_creditos_extras - operacion_descuento_estrato1_credito_extra}\n adicionalmente tienes un subsidio de alimentación y transporte de : ${subsidio_estrato1}");
+                    Console.WriteLine($"El valor de tu matricula es ${total_matricula_creditos_extras.ToString("c")} pero con el descuento del 80% queda en ${total_matricula_creditos_extras - operacion_descuento_estrato1_credito_extra}\n adicionalmente tienes un subsidio de alimentación y transporte de : ${subsidio_estrato1.ToString("c")}");
 
 
 
@@ -114,11 +114,11 @@ public class Program
                 else if (estratro_estudiante == 2)
                 {
 
-                    Console.WriteLine($"El valor de tu matricula es ${total_matricula_creditos_extras} pero con el descuento del 50% queda en %{total_matricula_creditos_extras - operacion_descuento_estrato2_credito_extra}\n adicionalmente tienes un subsidio de alimentación y transporte de : ${subsidio_estrato2}");
+                    Console.WriteLine($"El valor de tu matricula es ${total_matricula_creditos_extras.ToString("c")} pero con el descuento del 50% queda en % {total_matricula_creditos_extras - operacion_descuento_estrato2_credito_extra}\n adicionalmente tienes un subsidio de alimentación y transporte de : ${subsidio_estrato2.ToString("c")}");
                 }
                 else if (estratro_estudiante == 3)
                 {
-                    Console.WriteLine($"El valor de tu matricula es ${total_matricula_creditos_extras} pero con el descuento del 30% queda en ${total_matricula_creditos_extras - operacion_descuento_estrato3_credito_extra}\n No tienes ningun tipo de subsidio");
+                    Console.WriteLine($"El valor de tu matricula es ${total_matricula_creditos_extras.ToString("c")} pero con el descuento del 30% queda en ${total_matricula_creditos_extras - operacion_descuento_estrato3_credito_extra}\n No tienes ningun tipo de subsidio");
                 }
                 else
                 {
@@ -142,7 +142,7 @@ public class Program
             {
 
                 continuar = false;
-                Console.WriteLine(" El programa a finalizado ");
+                Console.WriteLine(" El programa a finalizado, que tengas un exelente dia ;) ");
             }
 
 
