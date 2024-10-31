@@ -60,8 +60,30 @@ public class Program
 
         // desarrollo
 
-        do
+        
+        while ()
         {
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
             if (num_creditos_tomados <= 20)
             {
                 if (estratro_estudiante == 1)
@@ -73,7 +95,7 @@ public class Program
                 }
                 else if (estratro_estudiante == 2)
                 {
-                    Console.WriteLine($"El valor de tu matricula es ${sumade_matricula_por_preciode_matricula} pero con el descuento del 30% queda en ${sumade_matricula_por_preciode_matricula - operacion_descuento_estrato2}\n adicionalmente tienes un subsidio de alimentación y transporte de : ${subsidio_estrato2}");
+                    Console.WriteLine($"El valor de tu matricula es ${sumade_matricula_por_preciode_matricula} pero con el descuento del 50% queda en ${sumade_matricula_por_preciode_matricula - operacion_descuento_estrato2}\n adicionalmente tienes un subsidio de alimentación y transporte de : ${subsidio_estrato2}");
 
                 }
                 else if (estratro_estudiante == 3)
@@ -116,11 +138,11 @@ public class Program
 
 
             }
-            Console.WriteLine("SI DESEAS VOLVER A CALCULAR PRESIONA ( 1 ) DE LO CONTRATIO PRESIONA ( ENTER ) PARA FINALIZAR EL PROGRAMA   \n  ");
+            Console.WriteLine("\n SI DESEAS VOLVER A CALCULAR PRESIONA ( 1 ) DE LO CONTRATIO PRESIONA ( ENTER ) PARA FINALIZAR EL PROGRAMA   \n  ");
             repetir = Convert.ToInt32(Console.ReadLine());
         
 
-        } while (repetir==1);
+        
 
         
 
