@@ -26,7 +26,14 @@ public class Program
  Hacer uso de todos los elementos de programación que hemos visto hasta el
  momento, incluyendo POO(clases, propiedades, métodoss)*/
 
-        //DECLARO MIS VARIABLES Y VALORES A PEDIR
+        
+        // desarrollo
+          bool continuar = true;
+
+        while (continuar)
+        {
+            
+//DECLARO MIS VARIABLES Y VALORES A PEDIR
         Console.WriteLine("¿Cuantos creditos tomo para este semestre? ");
         decimal num_creditos_tomados = Convert.ToDecimal(Console.ReadLine());
         const decimal creditos = 1000;
@@ -56,13 +63,8 @@ public class Program
         decimal operacion_descuento_estrato2_credito_extra = total_matricula_creditos_extras * constante_descuento_estrato2 / 100;
         decimal operacion_descuento_estrato3_credito_extra = total_matricula_creditos_extras * constante_descuento_estrato33 / 100;
         // parte para que el programa se repita 
-        int repetir;
-
-        // desarrollo
-
+        string respuesta;
         
-        while ()
-        {
 
 
 
@@ -71,19 +73,6 @@ public class Program
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-        }
             if (num_creditos_tomados <= 20)
             {
                 if (estratro_estudiante == 1)
@@ -138,13 +127,32 @@ public class Program
 
 
             }
-            Console.WriteLine("\n SI DESEAS VOLVER A CALCULAR PRESIONA ( 1 ) DE LO CONTRATIO PRESIONA ( ENTER ) PARA FINALIZAR EL PROGRAMA   \n  ");
-            repetir = Convert.ToInt32(Console.ReadLine());
-        
+            Console.WriteLine("\n SI DESEAS VOLVER A CALCULAR PRESIONA LA LETRA  ( S ) DE LO CONTRATIO PRESIONA ( N ) PARA FINALIZAR EL PROGRAMA   \n  ");
+            respuesta = Console.ReadLine();
 
-        
 
-        
+
+
+
+
+
+
+
+            if (respuesta.ToLower() != "s")
+            {
+
+                continuar = false;
+                Console.WriteLine(" El programa a finalizado ");
+            }
+
+
+        }
+
+
+
+
+
+
 
 
 
