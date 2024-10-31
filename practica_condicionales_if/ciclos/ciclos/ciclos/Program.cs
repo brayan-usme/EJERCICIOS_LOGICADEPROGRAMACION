@@ -56,7 +56,7 @@ public class Program
         // operaciones para creditos mayores a 20
         decimal costo_creditos_normales = 20 * creditos;
         decimal creditos_extras = num_creditos_tomados - 20;
-        decimal costos_creditos_extras = creditos_extras + credito_extra;
+        decimal costos_creditos_extras = creditos_extras * credito_extra;
         decimal total_matricula_creditos_extras = costo_creditos_normales + costos_creditos_extras;
         ///
         decimal operacion_descuento_estrato1_credito_extra = total_matricula_creditos_extras * constante_descuento_estrato1 / 100;
