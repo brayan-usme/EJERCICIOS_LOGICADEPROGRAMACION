@@ -46,8 +46,8 @@ public class Program
         const decimal constante_descuento_estrato2 = 50;
         const decimal constante_descuento_estrato33 = 30;
         // subsicios para estratos 1y 2
-        const decimal subsidio_estrato1 = 2000000;
-        const decimal subsidio_estrato2 = 1000000;
+        const decimal subsidio_estrato1 = 200000;
+        const decimal subsidio_estrato2 = 100000;
         // opereaciones para creditos menores a 20
         decimal sumade_matricula_por_preciode_matricula = num_creditos_tomados * creditos;
         decimal operacion_descuento_estrato1 = sumade_matricula_por_preciode_matricula * constante_descuento_estrato1 / 100;
